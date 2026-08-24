@@ -1,4 +1,4 @@
-import platform, psutil
+import platform
 import urllib.request
 import subprocess
 import tkinter as tk
@@ -26,7 +26,7 @@ label.pack(pady=20)
 button = Button(app_gui, text="START SERVER", relief="raised", bd=4, padx=20, pady=20)
 button.config(command=start)
 button.pack()
-warning = Label(app_gui, text="PRESSING START WILL CLOSE THIS WINDOW AFTER TO CONNECT TO YOUR SERVER GO TO MULTIPLAYER AND IP WILL BE localhost")
+warning = Label(app_gui, text="PRESSING START WILL CLOSE THIS WINDOW, AFTER TO CONNECT TO YOUR SERVER GO TO MULTIPLAYER AND IP WILL BE: localhost")
 warning.pack()
 ip = Label(app_gui, text="IP ADDRESS: localhost", font="Arial 20 bold")
 ip.pack()
@@ -41,11 +41,6 @@ print("Startup...")
 print("Getting system data...")
 machine_platform = platform.system()
 print("platform"+" "+machine_platform)
-RAM = psutil.virtual_memory().total
-RAMg = RAM / (1024 ** 3)
-print("RAM_total"+" "+ str(RAMg)+ "GB")
-cores = psutil.cpu_count(logical=False)
-print("Cores"+" "+str(cores))
 machine_architecture = platform.machine()
 print("Architecture"+" ")
 print("Configuring download...")
@@ -82,7 +77,7 @@ mac_arm_path = Path("./pumpkin-ARM64-macOS")
 if machine_platform == "Windows" and machine_architecture == "AMD64":
     print("win check...")
     if win_x64_path.is_file():
-        print("It seems you have already installed Pumpkin! we will run it for you!")
+        print("It seems you have already installed Pumpkin! We will run it for you!")
         subprocess.Popen("pumpkin-X64-Windows.exe")
         print("Pumpkin is running!")
     else:
@@ -96,7 +91,7 @@ if machine_platform == "Windows" and machine_architecture == "AMD64":
 if machine_platform == "Windows" and machine_architecture == "ARM64":
     print("win check...")
     if win_arm_path.is_file():
-        print("It seems you have already installed Pumpkin! we will run it for you!")
+        print("It seems you have already installed Pumpkin! We will run it for you!")
         subprocess.Popen("pumpkin-ARM64-Windows.exe")
         print("Pumpkin is running!")
     else:
@@ -110,7 +105,7 @@ if machine_platform == "Windows" and machine_architecture == "ARM64":
 if machine_platform == "Linux" and machine_architecture == "x86_64":
     print("linux check...")
     if lin_x64_path.is_file():
-        print("It seems you have already installed Pumpkin! we will run it for you!")
+        print("It seems you have already installed Pumpkin! We will run it for you!")
         subprocess.Popen("./pumpkin-X64-Linux")
         print("Pumpkin is running!")
     else:
@@ -127,7 +122,7 @@ if machine_platform == "Linux" and machine_architecture == "x86_64":
 if machine_platform == "Linux" and machine_architecture == "aarch64":
     print("linux check...")
     if lin_arm_path.is_file():
-        print("It seems you have already installed Pumpkin! we will run it for you!")
+        print("It seems you have already installed Pumpkin! We will run it for you!")
         subprocess.Popen("./pumpkin-ARM64-Linux")
         print("Pumpkin is running!")
     else:
@@ -144,7 +139,7 @@ if machine_platform == "Linux" and machine_architecture == "aarch64":
 if machine_platform == "Darwin" and machine_architecture == "x86_64":
     print("macos check...")
     if mac_x64_path.is_file():
-        print("It seems you have already installed Pumpkin! we will run it for you!")
+        print("It seems you have already installed Pumpkin! We will run it for you!")
         subprocess.Popen("./pumpkin-X64-macOS")
         print("Pumpkin is running!")
     else:
@@ -161,7 +156,7 @@ if machine_platform == "Darwin" and machine_architecture == "x86_64":
 if machine_platform == "Darwin" and machine_architecture == "arm64":
     print("macos check...")
     if mac_arm_path.is_file():
-        print("It seems you have already installed Pumpkin! we will run it for you!")
+        print("It seems you have already installed Pumpkin! We will run it for you!")
         subprocess.Popen("./pumpkin-ARM64-macOS")
         print("Pumpkin is running!")
     else:
@@ -220,3 +215,9 @@ if machine_platform == "Darwin" and machine_architecture == "arm64":
 #     print("setting up server executable...")
 #     subprocess.run("chmod +x pumpkin-ARM64-macOS", shell=True)
 #     print("completed without errors!")
+
+
+
+
+
+
