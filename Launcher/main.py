@@ -3,10 +3,8 @@ import urllib.request
 import subprocess
 import tkinter as tk
 from tkinter import *
-from playsound import playsound
 
 ######STARTUP (SOUNDS)######
-playsound("startup.mp3")
 
 ######ON START LOGIC######
 def start():
