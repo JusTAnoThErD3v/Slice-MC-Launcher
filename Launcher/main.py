@@ -28,7 +28,6 @@ warning = Label(app_gui, text="PRESSING START WILL CLOSE THIS WINDOW, AFTER TO C
 warning.pack()
 ip = Label(app_gui, text="IP ADDRESS: localhost", font="Arial 20 bold")
 ip.pack()
-ip.pack()
 app_gui.geometry("870x840")
 app_gui.mainloop()
 
