@@ -7,3 +7,4 @@ The missing slice to pumpkin mc server software! Automatically installs and conf
 
 
 Due to subprocesses in python3.14 sometimes the server wont stop.
+We are Striving for innovation and i can't promise anything but a certain sha checksum might me added soon...
