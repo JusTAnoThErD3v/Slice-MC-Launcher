@@ -220,9 +220,3 @@ if machine_platform == "Darwin" and machine_architecture == "arm64":
 #     print("setting up server executable...")
 #     subprocess.run("chmod +x pumpkin-ARM64-macOS", shell=True)
 #     print("completed without errors!")
-
-
-
-
-
-
