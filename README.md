@@ -32,7 +32,7 @@ For the official latest full build download the "Slice.tar.gz" from the releases
 
 https://github.com/JusTAnoThErD3v/Slice-MC-Launcher/releases/download/pre-alpha/Slice.tar.gz
 
-## INSTALLING SLICE LITE (LATEST)
+## INSTALLING SLICE LITE (LATEST, FULL CHECKSUM SUPPORT)
 For the in development single file universal download use the Slice lite file (Slice.pyz) from the realese page:
 
 https://github.com/JusTAnoThErD3v/Slice-MC-Launcher/releases/download/pre-alpha-light/Slice.pyz
