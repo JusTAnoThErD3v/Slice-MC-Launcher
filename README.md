@@ -26,13 +26,14 @@ or check useful documentation like:
 
 https://docs.python.org/3/using/unix.html
 
-## Installing SliceMC
+## Installing SliceMC (LEGACY DOES NOT HAVE SHA CHECK SUMS BUT IS LESS LIKELY TO BREAK)
 
 For the official latest full build download the "Slice.tar.gz" from the releases page:
 
 https://github.com/JusTAnoThErD3v/Slice-MC-Launcher/releases/download/pre-alpha/Slice.tar.gz
 
-For the in development single file universal download use the Slice light file (Slice.pyz) from the realese page:
+## INSTALLING SLICE LITE (LATEST)
+For the in development single file universal download use the Slice lite file (Slice.pyz) from the realese page:
 
 https://github.com/JusTAnoThErD3v/Slice-MC-Launcher/releases/download/pre-alpha-light/Slice.pyz
 
