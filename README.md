@@ -4,7 +4,7 @@ The missing slice to pumpkin mc server software! Automatically installs and conf
 <img width="492" height="129" alt="label_icon" src="https://github.com/user-attachments/assets/4466689f-af23-4359-9fb2-ed5c400f5b26" />
 
 Due to subprocesses in python3.14 sometimes the server wont stop.
-We are Striving for innovation and i can't promise anything but a certain sha checksum might be added soon...
+We are Striving for innovation now we have full checksum support! Error handling will be improved upon...
 
 # How to use
 This will guide you through how to use, download and install SliceMC server bootstrap for PumpkinMC.
