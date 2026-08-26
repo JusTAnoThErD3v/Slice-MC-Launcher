@@ -26,10 +26,9 @@ or check useful documentation like:
 
 https://docs.python.org/3/using/unix.html
 
-## Installing SliceMC (LEGACY DOES NOT HAVE SHA CHECK SUMS BUT IS LESS LIKELY TO BREAK)
-
+> [!CAUTION]
+Installing SliceMC (LEGACY DOES NOT HAVE SHA CHECK SUMS BUT IS LESS LIKELY TO BREAK)
 For the official latest full build download the "Slice.tar.gz" from the releases page:
-
 https://github.com/JusTAnoThErD3v/Slice-MC-Launcher/releases/download/pre-alpha/Slice.tar.gz
 
 ## INSTALLING SLICE LITE (LATEST, FULL CHECKSUM SUPPORT)
