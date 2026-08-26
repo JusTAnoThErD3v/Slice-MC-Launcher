@@ -1,7 +1,8 @@
 # Slice-MC-Launcher
 The missing slice to pumpkin mc server software! Automatically installs and configures Pumpkin MC crossplatform. One download!
 
-<img width="492" height="129" alt="label_icon" src="https://github.com/user-attachments/assets/4466689f-af23-4359-9fb2-ed5c400f5b26" />
+<img width="401" height="78" alt="8963ec958948e8837ba0e22101d0cedc6faf8abdda39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd8070905ccb9558d135c6627fbe265fa4dab9d" src="https://github.com/user-attachments/assets/2abce244-e5d2-40c8-a75f-c089d4db200b" />
+
 
 > [!CAUTION]
 Due to subprocesses in python3.14 sometimes the server wont stop.
