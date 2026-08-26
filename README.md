@@ -3,6 +3,7 @@ The missing slice to pumpkin mc server software! Automatically installs and conf
 
 <img width="492" height="129" alt="label_icon" src="https://github.com/user-attachments/assets/4466689f-af23-4359-9fb2-ed5c400f5b26" />
 
+> [!WARNING]
 Due to subprocesses in python3.14 sometimes the server wont stop.
 We are Striving for innovation now we have full checksum support! Error handling will be improved upon...
 
