@@ -3,7 +3,7 @@ The missing slice to pumpkin mc server software! Automatically installs and conf
 
 <img width="492" height="129" alt="label_icon" src="https://github.com/user-attachments/assets/4466689f-af23-4359-9fb2-ed5c400f5b26" />
 
-> [!WARNING]
+> [!CAUTION]
 Due to subprocesses in python3.14 sometimes the server wont stop.
 We are Striving for innovation now we have full checksum support! Error handling will be improved upon...
 
@@ -27,7 +27,7 @@ or check useful documentation like:
 
 https://docs.python.org/3/using/unix.html
 
-> [!CAUTION]
+> [!WARNING]
 Installing SliceMC (LEGACY DOES NOT HAVE SHA CHECK SUMS BUT IS LESS LIKELY TO BREAK)
 For the official latest full build download the "Slice.tar.gz" from the releases page:
 https://github.com/JusTAnoThErD3v/Slice-MC-Launcher/releases/download/pre-alpha/Slice.tar.gz
